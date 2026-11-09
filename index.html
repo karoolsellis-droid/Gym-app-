@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Andre Health</title>
+<meta name="theme-color" content="#0f1720">
+<meta name="description" content="Daily health, diet and gym tracker">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Health">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="install" class="install hidden"></div>
+<header class="top">
+  <div class="top-inner">
+    <div id="title" class="title">Today</div>
+    <button id="settingsBtn" class="icon-btn" aria-label="Settings">⚙︎</button>
+  </div>
+</header>
+<main id="main"></main>
+<nav class="tabs" id="tabs">
+  <button data-tab="today" class="on"><span>🏠</span>Today</button>
+  <button data-tab="body"><span>⚖️</span>Weight</button>
+  <button data-tab="gym"><span>🏋️</span>Gym</button>
+  <button data-tab="food"><span>🥗</span>Meals</button>
+  <button data-tab="health"><span>🩺</span>Medical</button>
+</nav>
+<div id="sheetWrap" class="sheet-wrap hidden"><div class="sheet" id="sheet"></div></div>
+<div id="toast" class="toast hidden"></div>
+<script src="exercises.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

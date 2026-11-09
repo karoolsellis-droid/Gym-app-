@@ -1,0 +1,168 @@
+{
+ "app": "andre-health-starter",
+ "settings": {
+  "start": 119,
+  "target": 107
+ },
+ "medical": [
+  {
+   "when": "Nov–Dec 2026",
+   "task": "Discuss LDL 154, cardiovascular risk and statin options",
+   "priority": "High",
+   "due": "2026-12-01"
+  },
+  {
+   "when": "Nov–Dec 2026",
+   "task": "Repeat lipid panel independently",
+   "priority": "High",
+   "due": "2026-12-01"
+  },
+  {
+   "when": "Nov–Dec 2026",
+   "task": "Check potassium, creatinine and eGFR on Prexum",
+   "priority": "High",
+   "due": "2026-12-01"
+  },
+  {
+   "when": "Nov–Dec 2026",
+   "task": "Review mildly high AFP 7.76 with clinician",
+   "priority": "Medium",
+   "due": "2026-12-01"
+  },
+  {
+   "when": "Nov–Dec 2026",
+   "task": "Discuss hepatitis B vaccination",
+   "priority": "Medium",
+   "due": "2026-12-01"
+  },
+  {
+   "when": "Before creatine",
+   "task": "Check with clinician; consider 3 g/day if approved",
+   "priority": "High",
+   "due": null
+  },
+  {
+   "when": "Jan–Feb 2027",
+   "task": "Review LDL response to diet / treatment",
+   "priority": "High",
+   "due": "2027-02-01"
+  },
+  {
+   "when": "Apr 2027",
+   "task": "Review HbA1c, blood pressure, weight, renal tests",
+   "priority": "Medium",
+   "due": "2027-04-01"
+  },
+  {
+   "when": "Oct 2027",
+   "task": "Annual blood tests and overall health review",
+   "priority": "High",
+   "due": "2027-10-01"
+  }
+ ],
+ "labs": {
+  "markers": [
+   {
+    "name": "LDL cholesterol",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "Total cholesterol",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "HDL cholesterol",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "Triglycerides",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "HbA1c",
+    "unit": "%"
+   },
+   {
+    "name": "Fasting glucose",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "Creatinine",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "Uric acid",
+    "unit": "mg/dL"
+   },
+   {
+    "name": "ALT",
+    "unit": "U/L"
+   },
+   {
+    "name": "AST",
+    "unit": "U/L"
+   },
+   {
+    "name": "AFP",
+    "unit": "ng/mL"
+   },
+   {
+    "name": "PSA",
+    "unit": "ng/mL"
+   },
+   {
+    "name": "Potassium",
+    "unit": "mmol/L"
+   },
+   {
+    "name": "eGFR",
+    "unit": "mL/min/1.73 m²"
+   }
+  ],
+  "results": [
+   {
+    "date": "2025-12-01",
+    "label": "Dec 2025",
+    "values": {
+     "LDL cholesterol": 121,
+     "Total cholesterol": 183,
+     "HDL cholesterol": 38,
+     "Triglycerides": 135,
+     "HbA1c": 5.2,
+     "Fasting glucose": 92,
+     "Creatinine": 0.8,
+     "Uric acid": 7.6,
+     "ALT": 38,
+     "AST": 29,
+     "AFP": 7.18,
+     "PSA": 0.429,
+     "eGFR": 106
+    }
+   },
+   {
+    "date": "2026-10-01",
+    "label": "Oct 2026",
+    "values": {
+     "LDL cholesterol": 154,
+     "Total cholesterol": 225,
+     "HDL cholesterol": 59,
+     "Triglycerides": 140,
+     "HbA1c": 5.26,
+     "Fasting glucose": 96,
+     "Creatinine": 1,
+     "Uric acid": 7.7,
+     "ALT": 31,
+     "AST": 25,
+     "AFP": 7.76,
+     "PSA": 0.36
+    }
+   }
+  ]
+ },
+ "notes": [
+  "Goal: consistency, lower LDL and sustainable strength — not extreme keto.",
+  "Medication: Prexum 10 mg; do not change dose without medical advice.",
+  "Creatine: discuss kidney function/potassium first; if approved, 3 g/day is a reasonable starting maintenance dose.",
+  "AFP: slightly above Oct lab cutoff — review with clinician. Potassium: request with Prexum."
+ ]
+}
